@@ -37,7 +37,7 @@
             <mxPoint x="360" y="450" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="label_include1" value="<<include>>" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rel_include1" vertex="1">
+        <mxCell id="label_include1" value="include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rel_include1" vertex="1">
           <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
             <mxPoint x="20" y="-10" as="offset"/>
           </mxGeometry>
