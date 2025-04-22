@@ -40,11 +40,11 @@
         <mxCell id="M2xENuGzF6R5AaJIFtvE-41" value="BJTU研究人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="181" y="376" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2xENuGzF6R5AaJIFtvE-42" value="设计风险评估算法" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="394" width="100" height="50" as="geometry" />
+        <mxCell id="M2xENuGzF6R5AaJIFtvE-42" value="调用数据获取接口" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="394" width="107" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="M2xENuGzF6R5AaJIFtvE-43" value="算法Debug" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="482" width="100" height="50" as="geometry" />
+        <mxCell id="M2xENuGzF6R5AaJIFtvE-43" value="设计风险评估算法" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="482" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M2xENuGzF6R5AaJIFtvE-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M2xENuGzF6R5AaJIFtvE-41" target="M2xENuGzF6R5AaJIFtvE-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
