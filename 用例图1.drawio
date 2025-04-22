@@ -95,10 +95,10 @@
         <mxCell id="urL1-BO4VyONki2LI478-1" value="BJTU研究人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="urL1-BO4VyONki2LI478-2" value="设计风险评估算法" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="urL1-BO4VyONki2LI478-2" value="调用数据获取接口" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="350" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="urL1-BO4VyONki2LI478-4" value="算法Debug" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="urL1-BO4VyONki2LI478-4" value="设计风险评估算法" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="440" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="urL1-BO4VyONki2LI478-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="urL1-BO4VyONki2LI478-1" target="urL1-BO4VyONki2LI478-2" edge="1">
