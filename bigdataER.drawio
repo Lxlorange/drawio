@@ -1,10 +1,100 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="27.0.6">
-  <diagram name="Page-1" id="A55oOuekgW_upTr8RoWf">
-    <mxGraphModel>
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    
+    <!-- 视频表(video) -->
+    <mxCell id="video" value="<b>video</b>" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+      <mxGeometry x="100" y="200" width="160" height="246"/>
+    </mxCell>
+    <mxCell id="video.bv_id" value="<u>bv_id</u> : VARCHAR(20) PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="26" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="video.title" value="title : VARCHAR(255) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="52" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="video.uploader_id" value="uploader_id : VARCHAR(50) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="78" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="video.view_count" value="view_count : INT DEFAULT 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="104" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="video.danmaku_count" value="danmaku_count_stat : INT DEFAULT 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="130" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="video.comment_count" value="comment_count_stat : INT DEFAULT 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="156" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="video.upload_time" value="upload_timestamp : TIMESTAMP NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="182" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="video.category" value="category : VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="video">
+      <mxGeometry y="208" width="160" height="26"/>
+    </mxCell>
+
+    <!-- 弹幕表(danmaku) -->
+    <mxCell id="danmaku" value="<b>danmaku</b>" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+      <mxGeometry x="400" y="200" width="160" height="182"/>
+    </mxCell>
+    <mxCell id="danmaku.id" value="<u>danmaku_id_platform</u> : VARCHAR(50) PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="danmaku">
+      <mxGeometry y="26" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="danmaku.bv_id" value="bv_id : VARCHAR(20) FK → video" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="danmaku">
+      <mxGeometry y="52" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="danmaku.content" value="danmaku_content : TEXT NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="danmaku">
+      <mxGeometry y="78" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="danmaku.time" value="danmaku_timestamp_video : INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="danmaku">
+      <mxGeometry y="104" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="danmaku.user" value="user_id_danmaku_sender_hash : VARCHAR(64)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="danmaku">
+      <mxGeometry y="130" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="danmaku.type" value="danmaku_type : TINYINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="danmaku">
+      <mxGeometry y="156" width="160" height="26"/>
+    </mxCell>
+
+    <!-- 评论表(comment) -->
+    <mxCell id="comment" value="<b>comment</b>" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+      <mxGeometry x="400" y="450" width="160" height="234"/>
+    </mxCell>
+    <mxCell id="comment.id" value="<u>comment_id_platform</u> : VARCHAR(50) PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="26" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="comment.bv_id" value="bv_id : VARCHAR(20) FK → video" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="52" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="comment.content" value="comment_content : TEXT NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="78" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="comment.user" value="user_id_comment_sender_hash : VARCHAR(64)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="104" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="comment.root" value="root_comment_id_platform : VARCHAR(50) FK → comment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="130" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="comment.parent" value="parent_comment_id_platform : VARCHAR(50) FK → comment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="156" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="comment.level" value="comment_level : TINYINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="182" width="160" height="26"/>
+    </mxCell>
+    <mxCell id="comment.like" value="comment_like_count : INT DEFAULT 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="comment">
+      <mxGeometry y="208" width="160" height="26"/>
+    </mxCell>
+
+    <!-- 关系连线 -->
+    <mxCell id="video-danmaku" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="video" target="danmaku">
+      <mxGeometry relative="1"/>
+    </mxCell>
+    <mxCell id="video-comment" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="video" target="comment">
+      <mxGeometry relative="1"/>
+    </mxCell>
+    <mxCell id="comment-self" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="comment" target="comment">
+      <mxGeometry relative="1">
+        <mxPoint x="480" y="584" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
