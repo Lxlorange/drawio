@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1231" dy="728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="607" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,15 @@
         <mxCell id="4" value="抢险队" style="swimlane;whiteSpace=wrap" parent="2" vertex="1">
           <mxGeometry x="-280" width="280" height="661" as="geometry" />
         </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="ORBnftc5wiz7zVl-WYrO-92" target="ORBnftc5wiz7zVl-WYrO-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-92" value="接收抢险任务" style="rounded=1;arcSize=50;" vertex="1" parent="4">
+          <mxGeometry x="36" y="57" width="132.5" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-93" value="报告抢险任务完成" style="rounded=1;arcSize=50;" vertex="1" parent="4">
+          <mxGeometry x="36" y="144" width="132.5" height="27" as="geometry" />
+        </mxCell>
         <mxCell id="ORBnftc5wiz7zVl-WYrO-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="ORBnftc5wiz7zVl-WYrO-54" target="ORBnftc5wiz7zVl-WYrO-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -65,6 +74,9 @@
         <mxCell id="ORBnftc5wiz7zVl-WYrO-68" value="" style="whiteSpace=wrap;strokeColor=#000000;fillColor=#000000;rotation=90;" vertex="1" parent="2">
           <mxGeometry x="144" y="119" width="5" height="202" as="geometry" />
         </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="ORBnftc5wiz7zVl-WYrO-64" target="ORBnftc5wiz7zVl-WYrO-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ORBnftc5wiz7zVl-WYrO-64" value="生成任务列表" style="rounded=1;arcSize=50;" vertex="1" parent="2">
           <mxGeometry x="91.5" y="255" width="110" height="27" as="geometry" />
         </mxCell>
@@ -79,6 +91,41 @@
         </mxCell>
         <mxCell id="ORBnftc5wiz7zVl-WYrO-80" value="A" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="6.5" y="489" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="ORBnftc5wiz7zVl-WYrO-89" target="ORBnftc5wiz7zVl-WYrO-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-52.64813232421875" y="128.38172912597656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-89" value="向对应抢险队发送任务" style="rounded=1;arcSize=50;" vertex="1" parent="2">
+          <mxGeometry x="72.25" y="307" width="148.5" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-96" value="生成待审核信息" style="rounded=1;arcSize=50;" vertex="1" parent="2">
+          <mxGeometry x="76.25" y="358" width="132.5" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="ORBnftc5wiz7zVl-WYrO-93" target="ORBnftc5wiz7zVl-WYrO-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="44.99493408203125" y="402.4557647705078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="ORBnftc5wiz7zVl-WYrO-101" target="ORBnftc5wiz7zVl-WYrO-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-104" value="任务列表为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ORBnftc5wiz7zVl-WYrO-102">
+          <mxGeometry x="-0.28" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="ORBnftc5wiz7zVl-WYrO-101" target="ORBnftc5wiz7zVl-WYrO-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-106" value="任务列表非空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ORBnftc5wiz7zVl-WYrO-105">
+          <mxGeometry x="-0.7161" y="3" relative="1" as="geometry">
+            <mxPoint x="32" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-101" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="94.5" y="422" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3" value="铁路管理局" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="716" y="122" width="280" height="661" as="geometry" />
@@ -99,6 +146,12 @@
         <mxCell id="ORBnftc5wiz7zVl-WYrO-75" value="A" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="152" y="132.5" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-99" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="91" y="356" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-98" value="生成待审核信息" style="rounded=1;arcSize=50;" vertex="1" parent="3">
+          <mxGeometry x="121" y="486" width="132.5" height="27" as="geometry" />
+        </mxCell>
         <mxCell id="ORBnftc5wiz7zVl-WYrO-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORBnftc5wiz7zVl-WYrO-58" target="ORBnftc5wiz7zVl-WYrO-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -108,6 +161,11 @@
         <mxCell id="ORBnftc5wiz7zVl-WYrO-71" value="实情符合风险等级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ORBnftc5wiz7zVl-WYrO-69">
           <mxGeometry x="-0.1896" y="2" relative="1" as="geometry">
             <mxPoint x="-15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORBnftc5wiz7zVl-WYrO-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORBnftc5wiz7zVl-WYrO-96" target="ORBnftc5wiz7zVl-WYrO-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="781.33154296875" y="493.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
