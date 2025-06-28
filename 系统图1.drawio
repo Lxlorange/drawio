@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="2gd0ypYWgnyMLC7ytH66">
-    <mxGraphModel dx="1119" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,11 +104,81 @@
         <mxCell id="Zouj0tRTCZzd18_7H21M-45" value="挑选出异常数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-44">
           <mxGeometry x="21" y="25" width="116" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zouj0tRTCZzd18_7H21M-57" target="Zouj0tRTCZzd18_7H21M-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1293" y="350" />
+              <mxPoint x="1293" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-65" value="低风险异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="Zouj0tRTCZzd18_7H21M-64">
+          <mxGeometry x="-0.4399" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zouj0tRTCZzd18_7H21M-57" target="Zouj0tRTCZzd18_7H21M-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1296" y="382" />
+              <mxPoint x="1296" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-67" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;高风险异常&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zouj0tRTCZzd18_7H21M-66">
+          <mxGeometry x="-0.3925" y="3" relative="1" as="geometry">
+            <mxPoint x="-6" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zouj0tRTCZzd18_7H21M-57" target="Zouj0tRTCZzd18_7H21M-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006.4545454545455" y="518.2245677601206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-69" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;异常信息&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zouj0tRTCZzd18_7H21M-68">
+          <mxGeometry x="-0.0415" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zouj0tRTCZzd18_7H21M-57" target="Zouj0tRTCZzd18_7H21M-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-75" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;紧急险情&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zouj0tRTCZzd18_7H21M-74">
+          <mxGeometry x="0.1482" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Zouj0tRTCZzd18_7H21M-57" value="1.2.1" style="swimlane;html=1;startSize=20;fontStyle=1;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="927" y="334" width="158" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="Zouj0tRTCZzd18_7H21M-58" value="挑选出异常数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-57">
+        <mxCell id="Zouj0tRTCZzd18_7H21M-58" value="评估异常风险" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-57">
           <mxGeometry x="21" y="25" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-62" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;低风险异常记录&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="1342" y="294" width="165" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-63" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;高风险异常记录&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="1342" y="398" width="168" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zouj0tRTCZzd18_7H21M-70" target="Zouj0tRTCZzd18_7H21M-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-78" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;预警信息&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zouj0tRTCZzd18_7H21M-77">
+          <mxGeometry x="0.1477" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-70" value="1.2.2" style="swimlane;html=1;startSize=20;fontStyle=1;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="927" y="536" width="158" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-71" value="生成预警信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-70">
+          <mxGeometry x="21" y="25" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-72" value="&lt;b&gt;应急响应模块&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="481" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zouj0tRTCZzd18_7H21M-76" value="&lt;b&gt;铁路管理局&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="632" y="528" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
