@@ -187,23 +187,20 @@
         <mxCell id="134" value="应急资源调度" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1009.9999999999998" y="300.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="135" value="接收事件，记录事件" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="135" value="即时响应应急事件" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="809.9999999999998" y="400.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="136" value="对事件进行分类和评估" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="136" value="启动应急预案" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="809.9999999999999" y="480.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="137" value="跟踪反馈事件的处理进展" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="809.9999999999998" y="639.0000000000001" width="120" height="60" as="geometry" />
+          <mxGeometry x="813.9999999999998" y="568.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="140" value="分配应急响应所需的资源" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="140" value="协调资源的调动和使用" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1009.9999999999993" y="400.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="141" value="协调资源的调动和使用" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1009.9999999999995" y="480.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="142" value="监控资源的使用情况" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1009.9999999999995" y="560.0000000000001" width="120" height="60" as="geometry" />
+        <mxCell id="141" value="监控资源的使用情况" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1009.9999999999995" y="484.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="145" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;fontSize=13;" parent="1" source="133" target="135" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -247,15 +244,6 @@
             <mxPoint x="989.9999999999998" y="510" as="targetPoint" />
             <Array as="points">
               <mxPoint x="990" y="420" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="154" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;fontSize=13;" parent="1" source="134" target="142" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="990" y="330" as="sourcePoint" />
-            <mxPoint x="989.9999999999998" y="590" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="990" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -471,18 +459,6 @@
               <mxPoint x="50" y="497" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="U-L2ljjVf9dKqHVtSkIS-236" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.025;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="1" source="133" target="U-L2ljjVf9dKqHVtSkIS-237" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="810" y="349" as="sourcePoint" />
-            <mxPoint x="814" y="590" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="790" y="489" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U-L2ljjVf9dKqHVtSkIS-237" value="按条件上报事件" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="810" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
