@@ -58,7 +58,7 @@
         <mxCell id="46" value="根据实时情况调整巡查任务" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="439.9999999999999" y="480.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="47" value="跟踪巡查人员执行情况（包含到位情况和其他异常）" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="47" value="跟踪巡查人员执行情况（包含到位情况）" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="439.99999999999983" y="560.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="48" value="处理巡查过程中的异常情况（未按时巡查、偏离路线等）" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
