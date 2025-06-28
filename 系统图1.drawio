@@ -134,20 +134,20 @@
         <mxCell id="Zouj0tRTCZzd18_7H21M-25" value="1.1.3" style="swimlane;html=1;startSize=20;fontStyle=1;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="293" y="462" width="158" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="Zouj0tRTCZzd18_7H21M-26" value="实时数据采集" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-25">
+        <mxCell id="Zouj0tRTCZzd18_7H21M-26" value="采集气象数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-25">
           <mxGeometry x="28" y="26" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zouj0tRTCZzd18_7H21M-27" value="1.1.2" style="swimlane;html=1;startSize=20;fontStyle=1;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="293" y="326" width="158" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="Zouj0tRTCZzd18_7H21M-28" value="实时数据采集" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-27">
-          <mxGeometry x="28" y="26" width="102" height="30" as="geometry" />
+        <mxCell id="Zouj0tRTCZzd18_7H21M-28" value="采集传感器数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-27">
+          <mxGeometry x="21" y="25" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zouj0tRTCZzd18_7H21M-29" value="1.1.1" style="swimlane;html=1;startSize=20;fontStyle=1;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="293" y="207" width="158" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="Zouj0tRTCZzd18_7H21M-30" value="实时数据采集" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-29">
-          <mxGeometry x="28" y="26" width="102" height="30" as="geometry" />
+        <mxCell id="Zouj0tRTCZzd18_7H21M-30" value="采集摄像头数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="Zouj0tRTCZzd18_7H21M-29">
+          <mxGeometry x="23.5" y="26" width="111" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zouj0tRTCZzd18_7H21M-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zouj0tRTCZzd18_7H21M-35" target="Zouj0tRTCZzd18_7H21M-27">
           <mxGeometry relative="1" as="geometry" />
