@@ -56,13 +56,13 @@
           <mxGeometry x="439.9999999999997" y="400.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="46" value="根据实时情况调整巡查任务" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="439.9999999999999" y="480.0000000000001" width="120" height="60" as="geometry" />
+          <mxGeometry x="639.9999999999999" y="479.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="47" value="跟踪巡查人员执行情况（包含到位情况）" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="439.99999999999983" y="560.0000000000001" width="120" height="60" as="geometry" />
+        <mxCell id="47" value="跟踪巡查人员执行情况（包含到位情况和其他异常）" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="439.99999999999983" y="480.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="48" value="处理巡查过程中的异常情况（未按时巡查、偏离路线等）" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="440" y="640.0000000000001" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="568.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="52" value=" 提供风险点的位置、描述等信息" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="639.9999999999995" y="400.0000000000001" width="120" height="60" as="geometry" />
@@ -145,12 +145,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="119" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;fontSize=13;" parent="1" source="43" target="46" edge="1">
+        <mxCell id="119" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;fontSize=13;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="44" target="46" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="430" y="330" as="sourcePoint" />
             <mxPoint x="429.9999999999998" y="510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="420" />
+              <mxPoint x="620" y="416" />
             </Array>
           </mxGeometry>
         </mxCell>
