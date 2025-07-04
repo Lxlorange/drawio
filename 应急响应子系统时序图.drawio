@@ -1,9 +1,343 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
   <diagram name="第 1 页" id="xFlkvtPawCAcZ2Zmb_b7">
-    <mxGraphModel>
+    <mxGraphModel dx="1653" dy="879" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="74" width="191" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-14" source="qgLrqtivK7m1MMnGs5ls-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-3" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: start; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;:EmergencyResponseSystem&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-14">
+          <mxGeometry width="191" height="80.96069868995635" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-14">
+          <mxGeometry x="90.5" y="131.12" width="10" height="538.88" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90.5" y="534.9956521739131" as="sourcePoint" />
+            <mxPoint x="90.5" y="579" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="55" y="535" />
+              <mxPoint x="55" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-57" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;checkTaskListStatus()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-54">
+          <mxGeometry x="-0.1146" y="2" relative="1" as="geometry">
+            <mxPoint x="-35" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90.5" y="609.0013043478264" as="sourcePoint" />
+            <mxPoint x="90.5" y="644.7299999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="644.73" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-60" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;archiveEvent()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-58">
+          <mxGeometry x="0.295" relative="1" as="geometry">
+            <mxPoint x="-30" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="35" y="81" width="30" height="559" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-18" source="qgLrqtivK7m1MMnGs5ls-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="478.95226730310236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-1" value="抢险队" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-18">
+          <mxGeometry width="30" height="80.04773269689738" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-18">
+          <mxGeometry x="10" y="149.42243436754177" width="10" height="269.49403341288786" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" target="qgLrqtivK7m1MMnGs5ls-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="57" y="238" as="sourcePoint" />
+            <mxPoint x="289.5" y="259" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="57" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-20" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;receiveEmergencyReport()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-19">
+          <mxGeometry x="-0.1557" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="401" y="74" width="154" height="556" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-21" source="qgLrqtivK7m1MMnGs5ls-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="665.5309568480301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-23" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: start; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;:RiskNotification&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-21">
+          <mxGeometry width="154" height="69.42199136469027" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-21">
+          <mxGeometry x="72.97" y="143.4751219512195" width="8.06" height="412.5248780487805" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-21" target="qgLrqtivK7m1MMnGs5ls-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="283.34000000000026" y="500.7141728286059" as="sourcePoint" />
+            <mxPoint x="-129.33999999999997" y="500.7141728286059" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="283" y="528.8780487804879" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-51" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;updateStatus()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-50">
+          <mxGeometry x="0.5228" y="-2" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="614" y="74" width="146" height="537" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-26" source="qgLrqtivK7m1MMnGs5ls-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-28" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: start; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;:EmergencyTask&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-26">
+          <mxGeometry width="146" height="66.55021834061135" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-26">
+          <mxGeometry x="69.18" y="276" width="7.64" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-32" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;generateRiskNotification()&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-13" target="qgLrqtivK7m1MMnGs5ls-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="386" y="239" />
+              <mxPoint x="386" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-25" target="qgLrqtivK7m1MMnGs5ls-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="370" />
+              <mxPoint x="368" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-34" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;updateReviewStatus()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-33">
+          <mxGeometry x="0.1397" y="-3" relative="1" as="geometry">
+            <mxPoint x="10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="271.9999999999998" y="352" as="sourcePoint" />
+            <mxPoint x="687" y="414" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="683" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-37" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;generateTaskList()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-35">
+          <mxGeometry x="0.0135" y="7" relative="1" as="geometry">
+            <mxPoint x="60" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-13" target="qgLrqtivK7m1MMnGs5ls-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="452" />
+              <mxPoint x="485" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-38" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;dispatchTask()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-36">
+          <mxGeometry x="0.2968" y="-2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="817" y="73" width="146" height="508" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-39" source="qgLrqtivK7m1MMnGs5ls-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="618" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-41" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: start; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;:EmergencyTeam&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-39">
+          <mxGeometry width="146" height="66.55021834061135" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-39">
+          <mxGeometry x="69.09" y="317" width="7.82" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76.91000000000031" y="410.0000000000002" as="sourcePoint" />
+            <mxPoint x="79" y="434" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="104" y="410" />
+              <mxPoint x="104" y="434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-77" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;receiveTask()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-76">
+          <mxGeometry x="-0.1324" y="2" relative="1" as="geometry">
+            <mxPoint x="35" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76.91000000000031" y="446.0000000000002" as="sourcePoint" />
+            <mxPoint x="76.91000000000031" y="478.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-81" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;executeTask()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-79">
+          <mxGeometry x="-0.1279" relative="1" as="geometry">
+            <mxPoint x="38" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1004" y="74" width="146" height="508" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-44" source="qgLrqtivK7m1MMnGs5ls-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-46" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot;&gt;:InsepectionReport&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-44">
+          <mxGeometry width="146" height="66.55021834061135" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-44">
+          <mxGeometry x="69.18" y="353" width="7.64" height="225.98" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-30" target="qgLrqtivK7m1MMnGs5ls-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="792" y="467" />
+              <mxPoint x="792" y="467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-74" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;assignTeam()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-49">
+          <mxGeometry x="-0.0912" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-62" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1212" y="74" width="146" height="644" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="qgLrqtivK7m1MMnGs5ls-62" source="qgLrqtivK7m1MMnGs5ls-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-64" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: start; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;:RailwayAuthority&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-62">
+          <mxGeometry width="146" height="62.1350744053928" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-65" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qgLrqtivK7m1MMnGs5ls-62">
+          <mxGeometry x="69.18" y="128.42" width="7.64" height="515.58" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-25" target="qgLrqtivK7m1MMnGs5ls-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1114" y="265" />
+              <mxPoint x="1114" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-69" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;submitForReview()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-67">
+          <mxGeometry x="-0.0582" y="-2" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-65" target="qgLrqtivK7m1MMnGs5ls-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1102" y="298" />
+              <mxPoint x="1102" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-71" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;reviewRiskNotification()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-70">
+          <mxGeometry x="0.0867" y="3" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-43" target="qgLrqtivK7m1MMnGs5ls-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="786" y="589" />
+              <mxPoint x="786" y="589" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-83" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;reportTaskComplete&lt;/span&gt;&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-82">
+          <mxGeometry x="0.0551" relative="1" as="geometry">
+            <mxPoint x="1163" y="816" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-93" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;reportTaskComplete()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-82">
+          <mxGeometry x="-0.0257" y="-2" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-43" target="qgLrqtivK7m1MMnGs5ls-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="991" y="572" />
+              <mxPoint x="991" y="572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-87" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;conductInspections()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-85">
+          <mxGeometry x="-0.189" relative="1" as="geometry">
+            <mxPoint x="1182" y="949" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-94" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 12px; text-align: start;&quot;&gt;conductInspections()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-85">
+          <mxGeometry x="-0.0091" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080.8200000000006" y="585" as="sourcePoint" />
+            <mxPoint x="1080.8200000000006" y="629.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1101" y="629.02" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-90" value="sumbitReport()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-88">
+          <mxGeometry x="0.0809" y="1" relative="1" as="geometry">
+            <mxPoint x="26" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1" source="qgLrqtivK7m1MMnGs5ls-65" target="qgLrqtivK7m1MMnGs5ls-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1203" y="645" />
+              <mxPoint x="1203" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLrqtivK7m1MMnGs5ls-92" value="updateStatus()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgLrqtivK7m1MMnGs5ls-91">
+          <mxGeometry x="0.1343" y="1" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
