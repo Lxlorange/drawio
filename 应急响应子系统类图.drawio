@@ -142,7 +142,7 @@
         <mxCell id="xiAdM_oJinIrioVPchU1-10" value="&lt;div&gt;&lt;div&gt;&amp;nbsp; + submitReport(report)&lt;/div&gt;&lt;div&gt;&amp;nbsp; + evaluateReport(report)&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="xiAdM_oJinIrioVPchU1-8" vertex="1">
           <mxGeometry y="35" width="200" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="xiAdM_oJinIrioVPchU1-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" parent="1" source="xiAdM_oJinIrioVPchU1-11" target="xiAdM_oJinIrioVPchU1-15" edge="1">
+        <mxCell id="xiAdM_oJinIrioVPchU1-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" parent="1" source="xiAdM_oJinIrioVPchU1-11" target="xiAdM_oJinIrioVPchU1-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xiAdM_oJinIrioVPchU1-11" value="EmergencyController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=27;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
