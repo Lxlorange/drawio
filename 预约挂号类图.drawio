@@ -109,16 +109,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4eUYUYx2-gPYo4XAFMZ-50" value="VisitRecordController " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="211" y="742" width="247" height="151" as="geometry" />
+          <mxGeometry x="211" y="742" width="247" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="p4eUYUYx2-gPYo4XAFMZ-51" value="+ getHistoryList(patientId)&amp;nbsp;&lt;div&gt;+ getVisitDetail(visitId)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-50">
+        <mxCell id="p4eUYUYx2-gPYo4XAFMZ-51" value="+ getTemplate(doctorId)&lt;div&gt;+ saveTemplate(doctorId, templates)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-50">
           <mxGeometry y="26" width="247" height="44" as="geometry" />
         </mxCell>
         <mxCell id="p4eUYUYx2-gPYo4XAFMZ-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-50">
           <mxGeometry y="70" width="247" height="4" as="geometry" />
         </mxCell>
-        <mxCell id="p4eUYUYx2-gPYo4XAFMZ-53" value="- visitRecordService&lt;div&gt;- patientService&lt;/div&gt;&lt;div&gt;- prescriptionService&lt;/div&gt;&lt;div&gt;- labReportService&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-50">
-          <mxGeometry y="74" width="247" height="77" as="geometry" />
+        <mxCell id="p4eUYUYx2-gPYo4XAFMZ-53" value="- scheduleTemplateService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-50">
+          <mxGeometry y="74" width="247" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p4eUYUYx2-gPYo4XAFMZ-54" value="VisitRecordSummary " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="564" y="725" width="154" height="143" as="geometry" />
@@ -126,7 +126,7 @@
         <mxCell id="p4eUYUYx2-gPYo4XAFMZ-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-54">
           <mxGeometry y="26" width="154" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="p4eUYUYx2-gPYo4XAFMZ-56" value="- visitId&lt;div&gt;- visitDate&lt;/div&gt;&lt;div&gt;- departmentName&lt;/div&gt;&lt;div&gt;- doctorName&lt;/div&gt;&lt;div&gt;- primaryDiagnosis&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-54">
+        <mxCell id="p4eUYUYx2-gPYo4XAFMZ-56" value="- templateId&lt;div&gt;- doctorId&lt;/div&gt;&lt;div&gt;- dayOfWeek&lt;/div&gt;&lt;div&gt;- timeSlot&lt;/div&gt;&lt;div&gt;- slots(List&amp;lt;TemplateSlot&amp;gt;)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="p4eUYUYx2-gPYo4XAFMZ-54">
           <mxGeometry y="43" width="154" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4eUYUYx2-gPYo4XAFMZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="p4eUYUYx2-gPYo4XAFMZ-61" target="p4eUYUYx2-gPYo4XAFMZ-66">
