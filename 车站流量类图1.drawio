@@ -311,13 +311,13 @@
           <mxGeometry x="1770" y="1000" width="188" height="856" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-91" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="r-jxhGWKcusCDFm0Lulu-90">
-          <mxGeometry x="89" y="109" width="10" height="652" as="geometry" />
+          <mxGeometry x="89" y="109" width="10" height="448" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-92" value="&lt;&lt;controller&gt;&gt;&#xa;:TotalDemandController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
           <mxGeometry x="2063" y="1000" width="167" height="856" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-93" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="r-jxhGWKcusCDFm0Lulu-92">
-          <mxGeometry x="78" y="163" width="10" height="534" as="geometry" />
+          <mxGeometry x="78" y="163" width="10" height="386" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-94" value=":DataFusionService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
           <mxGeometry x="2353" y="995" width="148" height="861" as="geometry" />
