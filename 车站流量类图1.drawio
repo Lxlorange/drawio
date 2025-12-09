@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="ATlecg8mh4xNj6Rj9la3">
-    <mxGraphModel dx="821" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="665" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,19 +184,27 @@
           <mxGeometry x="2038" y="130" width="151" height="796" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-60" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="r-jxhGWKcusCDFm0Lulu-59">
-          <mxGeometry x="71" y="211" width="10" height="54" as="geometry" />
+          <mxGeometry x="71" y="137" width="10" height="54" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-61" value=":WeatherAPICollector" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="2239" y="130" width="170" height="796" as="geometry" />
+          <mxGeometry x="2239" y="130" width="168" height="796" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-62" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="r-jxhGWKcusCDFm0Lulu-61">
-          <mxGeometry x="80" y="319" width="10" height="54" as="geometry" />
+          <mxGeometry x="80" y="245" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="r-jxhGWKcusCDFm0Lulu-64" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="r-jxhGWKcusCDFm0Lulu-61">
+          <mxGeometry x="287" y="353" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="r-jxhGWKcusCDFm0Lulu-73" value="return fusedFeatureVector" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="r-jxhGWKcusCDFm0Lulu-61" source="r-jxhGWKcusCDFm0Lulu-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-48" y="407" />
+            </Array>
+            <mxPoint x="-406" y="407" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-63" value=":DataPreprocessor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
           <mxGeometry x="2459" y="130" width="150" height="796" as="geometry" />
-        </mxCell>
-        <mxCell id="r-jxhGWKcusCDFm0Lulu-64" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="r-jxhGWKcusCDFm0Lulu-63">
-          <mxGeometry x="70" y="583" width="10" height="54" as="geometry" />
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-65" value="getFusedData(startTime, endTime)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-78" target="r-jxhGWKcusCDFm0Lulu-58">
           <mxGeometry relative="1" as="geometry">
@@ -206,46 +214,36 @@
             <mxPoint x="1517.8235294117644" y="239" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r-jxhGWKcusCDFm0Lulu-66" value="fetchData(startTime, endTime)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-58" target="r-jxhGWKcusCDFm0Lulu-60">
+        <mxCell id="r-jxhGWKcusCDFm0Lulu-66" value="fetchData(startTime, endTime)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" target="r-jxhGWKcusCDFm0Lulu-60">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1983" y="341" />
+              <mxPoint x="1983" y="267" />
             </Array>
+            <mxPoint x="1836" y="267" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r-jxhGWKcusCDFm0Lulu-67" value="return rawRideData" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-60" target="r-jxhGWKcusCDFm0Lulu-58">
+        <mxCell id="r-jxhGWKcusCDFm0Lulu-67" value="return rawRideData" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-60">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1984" y="395" />
+              <mxPoint x="1984" y="321" />
             </Array>
+            <mxPoint x="1836" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r-jxhGWKcusCDFm0Lulu-68" value="fetchData(startTime, endTime)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-58" target="r-jxhGWKcusCDFm0Lulu-62">
+        <mxCell id="r-jxhGWKcusCDFm0Lulu-68" value="fetchData(startTime, endTime)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" target="r-jxhGWKcusCDFm0Lulu-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2088" y="449" />
+              <mxPoint x="2088" y="375" />
             </Array>
+            <mxPoint x="1836" y="375" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r-jxhGWKcusCDFm0Lulu-69" value="return rawWeatherData" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-62" target="r-jxhGWKcusCDFm0Lulu-58">
+        <mxCell id="r-jxhGWKcusCDFm0Lulu-69" value="return rawWeatherData" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2089" y="503" />
+              <mxPoint x="2089" y="429" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r-jxhGWKcusCDFm0Lulu-72" value="merge(cleanedRide, cleanedWeather)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-58" target="r-jxhGWKcusCDFm0Lulu-64">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2193" y="713" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r-jxhGWKcusCDFm0Lulu-73" value="return fusedFeatureVector" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-64" target="r-jxhGWKcusCDFm0Lulu-58">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2194" y="767" />
-            </Array>
+            <mxPoint x="1836" y="429" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r-jxhGWKcusCDFm0Lulu-78" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="1">
@@ -269,6 +267,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1550.5" y="922" as="sourcePoint" />
             <mxPoint x="1551.71" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-jxhGWKcusCDFm0Lulu-72" value="merge(cleanedRide, cleanedWeather)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="r-jxhGWKcusCDFm0Lulu-58" target="r-jxhGWKcusCDFm0Lulu-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2190" y="483" />
+            </Array>
+            <mxPoint x="1842" y="483" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
