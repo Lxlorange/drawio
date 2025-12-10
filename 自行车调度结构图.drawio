@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.2.6">
   <diagram name="Page-1" id="MAtBOWorS2v-K391X4WI">
-    <mxGraphModel dx="2100" dy="1040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="1119" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -484,6 +484,72 @@
               <mxPoint x="883" y="1353" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-1" parent="1" style="whiteSpace=wrap;rounded=1;shadow=1;fillColor=#10739E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=24;" value="单车需求预测和调度系统" vertex="1">
+          <mxGeometry height="91" width="340" x="4639" y="1094" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-2" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-3" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#F2931E;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" value="城市共享单车总需求预测模块" vertex="1">
+          <mxGeometry height="60" width="150" x="4464" y="1258" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-4" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-1" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="prGwMTnT_bGvdmUb1HGL-3" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="5284" y="1198" as="sourcePoint" />
+            <mxPoint x="4944" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-5" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" value="多源环境数据融合" vertex="1">
+          <mxGeometry height="60" width="150" x="4465" y="1369" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-6" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-7" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" value="时序总需求预测" vertex="1">
+          <mxGeometry height="60" width="150" x="4465" y="1453" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-8" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-9" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-10" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#F2931E;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" value="站点时空潮汐流量预测模块" vertex="1">
+          <mxGeometry height="60" width="150" x="4731.5" y="1258" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-11" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" value="站点级借还量&#xa;双向预测" vertex="1">
+          <mxGeometry height="60" width="150" x="4732.5" y="1369" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-12" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-13" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" value="地图可视化" vertex="1">
+          <mxGeometry height="60" width="150" x="4732.5" y="1453" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-14" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-15" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" value="站点数据统计" vertex="1">
+          <mxGeometry height="60" width="150" x="4731.5" y="1537" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-16" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-17" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-18" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#F2931E;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" value="智能调度路径规划模块" vertex="1">
+          <mxGeometry height="60" width="150" x="5025" y="1258" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-19" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" value="自动预警和&#xa;任务生成" vertex="1">
+          <mxGeometry height="60" width="150" x="5026" y="1369" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-20" edge="1" parent="1" source="prGwMTnT_bGvdmUb1HGL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;strokeWidth=8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;elbow=vertical;endArrow=none;endFill=0;" target="prGwMTnT_bGvdmUb1HGL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prGwMTnT_bGvdmUb1HGL-21" parent="1" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontSize=18;" value="规划调度路线" vertex="1">
+          <mxGeometry height="60" width="150" x="5026" y="1453" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
